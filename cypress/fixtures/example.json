@@ -1,9 +1,9 @@
 {
-  "Url":"https://opensource-demo.orangehrmlive.com/index.php/auth/login",
-  "username": "Admin",
-  "password": "admin123",
-  "EmployeeName":"Aaliyah Haq",
-  "Username":"asdfgh",
+  "Username": "Admin",
+  "Password": "admin123",
+  "EmployeeName":"Charlie Carter",
+  "Uname":"rishavKaundal2",
   "Pass":"12345678",
   "Confirmpass":"12345678"
+  
 }

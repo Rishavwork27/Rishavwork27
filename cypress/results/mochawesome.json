@@ -1,0 +1,201 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 1,
+    "failures": -1,
+    "start": "2022-03-25T09:18:22.411Z",
+    "end": "2022-03-25T09:19:29.378Z",
+    "duration": 66967,
+    "testsRegistered": 6,
+    "passPercent": 100,
+    "pendingPercent": 16.666666666666664,
+    "other": 1,
+    "hasOther": true,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c8ba517f-6e2e-41cc-95a7-dabf45f88a7e",
+      "title": "",
+      "fullFile": "cypress/integration/Login.js",
+      "file": "cypress/integration/Login.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d9000bc5-16b1-4219-b3e1-405bc47435b0",
+          "title": "OrangeHRM test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Login with valid credentials in OrangeHRM",
+              "fullTitle": "OrangeHRM test Login with valid credentials in OrangeHRM",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "e896e226-b90b-41af-b1d9-5976e1a1c242",
+              "parentUUID": "d9000bc5-16b1-4219-b3e1-405bc47435b0",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "homepage",
+              "fullTitle": "OrangeHRM test homepage",
+              "timedOut": null,
+              "duration": 23406,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "Home.dashboardbutton();\nHome.ClickAdmin();\nHome.AddButton();",
+              "err": {},
+              "uuid": "e7dde533-ffef-42b1-b84b-5a1d016b6662",
+              "parentUUID": "d9000bc5-16b1-4219-b3e1-405bc47435b0",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Adduser",
+              "fullTitle": "OrangeHRM test Adduser",
+              "timedOut": null,
+              "duration": 13246,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "Home.dashboardbutton();\nHome.ClickAdmin();\nHome.AddButton();\nadd.EnterEmployename(this.data.EmployeeName);\nadd.enterusername(this.data.Uname);\nadd.enterpassword(this.data.Pass);\nadd.enterconfirmpassword(this.data.Confirmpass);\nadd.savebutton();",
+              "err": {},
+              "uuid": "93c26451-ff6a-4e0d-aa48-4fe5b043b70b",
+              "parentUUID": "d9000bc5-16b1-4219-b3e1-405bc47435b0",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Info",
+              "fullTitle": "OrangeHRM test Info",
+              "timedOut": null,
+              "duration": 11194,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "In.ClickMyInfo();\nIn.clickeditbutton();\nIn.clickeditbutton();",
+              "err": {},
+              "uuid": "b4b17470-8475-4dca-bdd5-3bab20b4098c",
+              "parentUUID": "d9000bc5-16b1-4219-b3e1-405bc47435b0",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "contact  Information",
+              "fullTitle": "OrangeHRM test contact  Information",
+              "timedOut": null,
+              "duration": 8118,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "In.ClickMyInfo();\nPdetails.clickcontactdetailsbutton();",
+              "err": {},
+              "uuid": "961fcea1-7498-4865-9799-426e1a01311c",
+              "parentUUID": "d9000bc5-16b1-4219-b3e1-405bc47435b0",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Logout",
+              "fullTitle": "OrangeHRM test Logout",
+              "timedOut": null,
+              "duration": 10779,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "log.clickprofilrbutton();\nlog.logoutbutton();",
+              "err": {},
+              "uuid": "96a7e2d7-abb1-443f-ae02-af5e53e5fe93",
+              "parentUUID": "d9000bc5-16b1-4219-b3e1-405bc47435b0",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e7dde533-ffef-42b1-b84b-5a1d016b6662",
+            "93c26451-ff6a-4e0d-aa48-4fe5b043b70b",
+            "b4b17470-8475-4dca-bdd5-3bab20b4098c",
+            "961fcea1-7498-4865-9799-426e1a01311c",
+            "96a7e2d7-abb1-443f-ae02-af5e53e5fe93"
+          ],
+          "failures": [],
+          "pending": [
+            "e896e226-b90b-41af-b1d9-5976e1a1c242"
+          ],
+          "skipped": [],
+          "duration": 66743,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/results"
+      },
+      "version": "6.1.1"
+    }
+  }
+}

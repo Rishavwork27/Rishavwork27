@@ -1,2 +1,10 @@
 {
+    "baseUrl": "https://opensource-demo.orangehrmlive.com/index.php/admin/viewSystemUsers",
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "overwrite": false,
+      "html": true,
+      "json": false,
+      "reportDir":"cypress/results"
+    }
 }
